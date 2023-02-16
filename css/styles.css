@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #DBC8FF;
+    background-color:#eae2ef;
 }
 /*--================== HOME CSS ==================--*/
-#header {
+#header{
     padding: 10px;
     background-color: gray;
     display: flex;
@@ -24,8 +24,8 @@ body{
 }
 
 #ul{
+    list-style: none;
     display: flex;
-    list-style-type: none;
     gap: 30px;
     grid-gap:30px;
 }
@@ -80,10 +80,9 @@ body{
     padding: 10px;
 }
 .form__registrer {
-    background-color: white;
-    width: 400px;
-    padding: 30px;
-    margin: auto;
+    display: grid;
+    margin: 3rem;
+    gap: 1rem;
 }
 .button {
     background-color: #6132b7;
@@ -93,24 +92,16 @@ body{
 
 /*--================== PROJECTS CSS ==================--*/
 .projects__section {
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-    gap:20px
-
-}
-.project{
-    flex-wrap: wrap;
-}
-.img__proyecto{
-    width:100%;
+    display: grid;
+    margin: 3rem;
+    gap: 1rem;
 }
 
-.button__proyecto {
-    border: none;
-    background-color: #503459;
-    padding: 10px;
-    border-radius: 10px;
+.img__project{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 /*--================== EDUCATION CSS ==================--*/
