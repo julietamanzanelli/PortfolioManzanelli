@@ -90,7 +90,7 @@ body{
     margin-top: 15px;
 }
 
-/*--================== PROJECTS CSS ==================--*/
+/*--================== PROJECTS CSS ==================--
 .projects__section {
     display: grid;
     margin: 3rem;
@@ -102,7 +102,7 @@ body{
     height: 100%;
     object-fit: cover;
 
-}
+}*/
 
 /*--================== EDUCATION CSS ==================--*/
 .main__education h1{
