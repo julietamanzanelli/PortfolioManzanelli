@@ -1,0 +1,122 @@
+/*--================== RESET ==================--*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--================== HOME CSS ==================--*/
+#header {
+    background-color: gray;
+    text-align: center;
+    width: auto;
+}
+
+.main__home {
+    text-align: center;
+    padding: 35px;
+}
+
+#nav {
+    list-style-type: none;
+    padding-block: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#items {
+    display: inline-block;
+    margin-inline: 10px;
+    border-color: #503459;
+    border-style: solid;
+    background-color: #503459;
+}
+
+#items a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: gray;
+    width: auto;
+    text-align: center;
+}
+
+#footer_img {
+    width: 50px;
+    padding: 10px;
+}
+/*--================== PROJECTS CSS ==================--*/
+.main__about{
+    text-align: center;
+}
+.main__about p{
+    margin: 10px;
+    padding: 10px;
+}
+/*--================== CONTACT CSS ==================--*/
+#fieldset {
+    padding: 10px;
+}
+
+.form__registrer {
+    background-color: #E5A8EE;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+}
+
+.button {
+    background-color: #503459;
+}
+
+/*--================== PROJECTS CSS ==================--*/
+.proyecto {
+    width: 30%;
+    background-color: #E5A8EE;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+
+}
+
+.img__proyecto {
+    width: 100%;
+
+}
+
+.title__proyecto {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.text__proyecto {
+    font-size: 14px;
+
+}
+
+.button__proyecto {
+    border: none;
+    background-color: #503459;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text__proyecto,
+.title__proyecto,
+.text__proyecto {
+    margin-bottom: 10px;
+}
+/*--================== PROJECTS CSS ==================--*/
+.main__education h1{
+    text-align: center;
+    padding: 5px;
+}
+.education__info{
+    margin: 10px;
+    padding: 10px;
+}

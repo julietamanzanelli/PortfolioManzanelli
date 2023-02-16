@@ -5,74 +5,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!--================== LINK CSS ==================-->
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Contacto</title>
 </head>
 
 <body>
-  <header>
-    <nav>
+  <!--================== HEADER ==================-->
+  <header id="header">
+    <nav id="nav">
       <ul>
-        <li>
-          <a href="../index.html">Home</a>
+        <li id="items">
+          <a href="../index.html">Inicio</a>
         </li>
-        <li>
-          <a href="about.html">Sobre mi</a>
+        <li id="items">
+          <a href="about.html">About</a>
         </li>
-        <li>
+        <li id="items">
           <a href="projects.html">Proyectos</a>
         </li>
-        <li>
+        <li id="items">
           <a href="education.html">Educacion</a>
         </li>
-        <li>
+        <li id="items">
           <a href="contact.html">Contacto</a>
         </li>
       </ul>
     </nav>
   </header>
-
+  <!--================== MAIN ==================-->
   <main>
     <form>
-      <fieldset>
-        <legend>Completa el formulario</legend>
-        <div>
-          <label for="nombre">Nombre
-            <input type="text" id="nombre" required>
-          </label>
+      <fieldset id="fieldset">
+        <div class="form__registrer">
+          <label for="nombre">Nombre y apellido *</label>
+          <input type="text" id="nombre" placeholder="Ingresar nombre y apellido" required>
         </div>
-        <div>
-          <label for="email">E-mail
-            <input type="email" ide="email" required>
-          </label>
+
+        <div class="form__registrer">
+          <label for="email">Correo Electronico *</label>
+          <input type="email" id="email" placeholder="ejemplo@email.com" required>
         </div>
-        <div>
-          <label for="mensaje"> Mensaje
-            <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
-          </label>
+
+        <div class="form__registrer">
+          <label for="mensaje">Mensaje *</label>
+          <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
         </div>
-        <div>
-          <button type="submit">Enviar</button>
+
+        <div class="form__registrer">
+          <button class="button" type="submit">Enviar</button>
         </div>
       </fieldset>
     </form>
   </main>
   <!--================== FOOTER ==================-->
-  <footer>
-    <h3>
-        Copyright © 2023 - Todos los derechos reservados
-    </h3>
+  <footer id="footer">
+    <h3>Copyright © 2023 - Todos los derechos reservados</h3>
     <a href="https://www.facebook.com/" target="_blank">
-        <img src="img/facebook.png" alt="Facebook" width="50px">
+      <img src="../img/facebook.png" id="footer_img" alt="Facebook">
     </a>
     <a href="https://www.youtube.com/" target="_blank">
-        <img src="img/youtube.png" alt="YouTube" width="50px">
+      <img src="../img/youtube.png" id="footer_img" alt="YouTube">
     </a>
     <a href="https://www.instagram.com/" target="_blank">
-        <img src="img/instagram.png" alt="Instagram" width="50px">
+      <img src="../img/instagram.png" id="footer_img" alt="Instagram">
     </a>
     <a href="https://www.whatsapp.com/?lang=es" target="_blank">
-        <img src="img/whatsapp.png" alt="WhatsApp" width="50px">
-    </a>  
+      <img src="../img/whatsapp.png" id="footer_img" alt="WhatsApp">
+    </a>
   </footer>
 </body>
+
 </html>
