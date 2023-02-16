@@ -4,50 +4,67 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #DBC8FF;
+}
 /*--================== HOME CSS ==================--*/
 #header {
+    padding: 10px;
     background-color: gray;
-    text-align: center;
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img__logo{
+    width: 100px;
+}
+#nav{
+    display: flex;
+    align-items: center;
 }
 
-.main__home {
-    text-align: center;
-    padding: 35px;
-}
-
-#nav {
+#ul{
+    display: flex;
     list-style-type: none;
-    padding-block: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#items {
-    display: inline-block;
-    margin-inline: 10px;
-    border-color: #503459;
-    border-style: solid;
-    background-color: #503459;
+    gap: 30px;
+    grid-gap:30px;
 }
 
 #items a {
     color: white;
     text-decoration: none;
 }
+.main__home{
+    display: flex;
+    flex-direction: row;
+}
+.main__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main__div h2 span{
+    display: block;
+}
+.main__div-img{
+    width: 90%;
+}
 
 #footer {
+    padding: 10px;
     background-color: gray;
-    width: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer_img {
     width: 50px;
     padding: 10px;
 }
-/*--================== PROJECTS CSS ==================--*/
+/*--================== ABOUT CSS ==================--*/
 .main__about{
     text-align: center;
 }
@@ -55,48 +72,38 @@
     margin: 10px;
     padding: 10px;
 }
+.img__project{
+    width: 90%;
+}
 /*--================== CONTACT CSS ==================--*/
 #fieldset {
     padding: 10px;
 }
-
 .form__registrer {
-    background-color: #E5A8EE;
+    background-color: white;
     width: 400px;
     padding: 30px;
     margin: auto;
 }
-
 .button {
-    background-color: #503459;
+    background-color: #6132b7;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 /*--================== PROJECTS CSS ==================--*/
-.proyecto {
-    width: 30%;
-    background-color: #E5A8EE;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-inline: 1.5%;
-    margin-block: 20px;
+.projects__section {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap:20px
 
 }
-
-.img__proyecto {
-    width: 100%;
-
+.project{
+    flex-wrap: wrap;
 }
-
-.title__proyecto {
-    font-size: 20px;
-    text-align: center;
-
-}
-
-.text__proyecto {
-    font-size: 14px;
-
+.img__proyecto{
+    width:100%;
 }
 
 .button__proyecto {
@@ -106,12 +113,7 @@
     border-radius: 10px;
 }
 
-.text__proyecto,
-.title__proyecto,
-.text__proyecto {
-    margin-bottom: 10px;
-}
-/*--================== PROJECTS CSS ==================--*/
+/*--================== EDUCATION CSS ==================--*/
 .main__education h1{
     text-align: center;
     padding: 5px;
