@@ -82,7 +82,7 @@ body{
 .form__registrer {
     display: grid;
     margin: 3rem;
-    gap: 1rem;
+    gap: 1rem; 
 }
 .button {
     background-color: #6132b7;
