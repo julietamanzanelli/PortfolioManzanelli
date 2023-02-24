@@ -1,89 +1,104 @@
-/*--================== RESET ==================--*/
+/*--================== RESET ==================--
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:#eae2ef;
+body {
+    background-color:#b4a7d6
 }
-/*--================== HOME CSS ==================--*/
-#header{
-    padding: 10px;
+*/
+/*--================== INICIO CSS ==================--*/
+#header {
+    display: flex;
+    justify-content: space-around;
     background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.img__logo{
-    width: 100px;
-}
-#nav{
-    display: flex;
     align-items: center;
 }
 
-#ul{
+.logo {
+    max-width: 6rem;
+}
+
+#nav__menu {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nav__list {
     list-style: none;
     display: flex;
     gap: 30px;
-    grid-gap:30px;
+    grid-gap: 30px;
 }
-
-#items a {
-    color: white;
+#nav__item a{
+    list-style: none;
     text-decoration: none;
 }
-.main__home{
-    display: flex;
-    flex-direction: row;
+#nav__item a:hover {
+    color: white;
 }
-.main__div{
+
+.inicio {
     display: flex;
-    flex-direction: column;
+}
+
+.inicio__titulo {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.main__div h2 span{
     display: block;
-}
-.main__div-img{
-    width: 90%;
 }
 
 #footer {
-    padding: 10px;
     background-color: gray;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-#footer_img {
-    width: 50px;
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social i {
+    font-size: 3rem;
+}
+
+/*--================== ABOUT CSS ==================--*/
+.main__about {
+    text-align: center;
+    display: grid;
+}
+
+.main__about h1 {
     padding: 10px;
 }
-/*--================== ABOUT CSS ==================--*/
-.main__about{
-    text-align: center;
-}
-.main__about p{
+
+.main__about p {
     margin: 10px;
     padding: 10px;
+    grid-template-columns: auto;
 }
-.img__project{
+
+.img__project {
     width: 90%;
 }
+
 /*--================== CONTACT CSS ==================--*/
 #fieldset {
     padding: 10px;
 }
+
 .form__registrer {
     display: grid;
     margin: 3rem;
-    gap: 1rem; 
+    gap: 1rem;
 }
+
 .button {
     background-color: #6132b7;
     padding: 10px;
@@ -105,11 +120,20 @@ body{
 }*/
 
 /*--================== EDUCATION CSS ==================--*/
-.main__education h1{
+.main__education h1 {
     text-align: center;
     padding: 5px;
 }
-.education__info{
-    margin: 10px;
+
+.education__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.education__info {
+    border: solid gray;
     padding: 10px;
 }

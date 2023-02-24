@@ -1,0 +1,14 @@
+#footer {
+    color:$backfooter;
+    align-items: center;
+    
+    .social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+    .social i {
+    font-size: 3rem;
+    }
+}

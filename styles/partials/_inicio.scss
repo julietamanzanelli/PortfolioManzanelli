@@ -1,0 +1,14 @@
+
+body {
+    color: $background;
+}
+
+.inicio {
+    display: flex;
+    
+    .inicio__titulo {
+        font-size: 4rem;
+        justify-content: center;
+        display: block;
+    }
+}
