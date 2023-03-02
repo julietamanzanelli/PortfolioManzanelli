@@ -1,0 +1,11 @@
+.main__home{
+    height: 70vh;
+    margin:1rem 3rem 3rem 3rem;
+    display: flex;
+    align-items: center;
+    .inicio {
+        h1{
+            font-style: $fontTitle;
+        }
+    }
+ }

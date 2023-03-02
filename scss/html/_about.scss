@@ -1,0 +1,15 @@
+.main__about {
+    text-align: center;
+    display: grid;
+    h1 {
+        padding: 10px;
+        text-align: center;
+    }
+    div {
+        p {
+            margin: 10px;
+            padding: 10px;
+            grid-template-columns: auto;
+        }
+    }
+}

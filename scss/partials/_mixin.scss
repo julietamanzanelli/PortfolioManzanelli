@@ -1,0 +1,6 @@
+//mixin sin parametros
+@mixin flex__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
