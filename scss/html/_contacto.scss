@@ -1,5 +1,22 @@
+.contact__form{
+    background-color:$colorForm;
+    padding: 20px;
+    border-radius: 10px;
 
+    & label{
+        color: black;
+        margin-bottom: 10px;
+    }
 
+    .contact__title{
+        font-size: 24px;
+        color:black;
+        margin-bottom: 12px;font-weight: bold;
+        display: block;
+    }
 
-    
-        
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}

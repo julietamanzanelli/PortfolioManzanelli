@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tilt+Warp&display=swap");
-@import url(https://fonts.google.com/specimen/Roboto+Mono#:~:text=%27https%3A//fonts.googleapis.com/css2%3Ffamily%3DRoboto%2BMono%3Aital%2Cwght%401%2C300%26family%3DRoboto%3Awght%40300%26family%3DTilt%2BWarp%26display%3Dswap%27);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  background-color: white; }
+  background-color: pink; }
 
 h1 {
   font-size: 2.5rem;
@@ -17,22 +15,30 @@ h2 {
   font-weight: 400;
   text-align: center; }
 
+.main__proyect {
+  display: flex; }
+  @media screen and (max-width: 480px) {
+    .main__proyect {
+      flex-direction: column; } }
+
 header {
-  background-color: #667292;
+  background-color: #fff4e6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 1rem;
   padding: 0.4rem; }
-  header nav ul {
+  header .main__nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
     grid-gap: 30px; }
-    header nav ul #nav__item a:hover {
+    header .main__nav ul #item__nav a:hover {
       list-style: none;
       text-decoration: none;
-      color: white; }
+      color: white;
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out; }
 
 .main__home {
   height: 70vh;
@@ -53,8 +59,29 @@ header {
     padding: 10px;
     grid-template-columns: auto; }
 
+@media screen and (max-width: 480px) {
+  .main__education {
+    flex-direction: column; } }
+
+.contact__form {
+  background-color: #30f2c6;
+  padding: 20px;
+  border-radius: 10px; }
+  .contact__form label {
+    color: black;
+    margin-bottom: 10px; }
+  .contact__form .contact__title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block; }
+  .contact__form form {
+    display: flex;
+    flex-direction: column; }
+
 footer {
-  background-color: #667292;
+  background-color: #e6f066;
   display: flex; }
   footer div {
     display: flex;

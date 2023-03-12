@@ -1,8 +1,13 @@
+@import "../scss/partials/mixin";
 @import "../scss/partials/vars";
-@import "../scss/html/reset";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 
 body{
-    background-color: white;
+    background-color:$colorBackGround;
 }
 h1 {
 	font-size: 2.5rem;
@@ -14,15 +19,12 @@ h2 {
 	font-weight: 400;
 	text-align: center;
 }
-
-@import "../scss/partials/mixin";
-
-
+@import "../scss/html/projects";
 
 @import "../scss/html/header";
 @import "../scss/html/inicio";
 @import "../scss/html/about";
-@import "../scss/html/projects";
+
 @import "../scss/html/education";
 @import "../scss/html/contacto";
 @import "../scss/html/footer";
