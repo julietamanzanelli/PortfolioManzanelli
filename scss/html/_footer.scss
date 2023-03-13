@@ -2,8 +2,6 @@ footer{
     background-color: $colorFooter;
     display: flex;
     div {
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
+        @include flex__header;
         }
 }

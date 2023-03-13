@@ -2,7 +2,6 @@ header {
     background-color: $colorHeader;
     @include flex__header;
     margin:1rem;
-    padding: 0.4rem;
     .main__nav{
         ul{
             list-style: none;
